@@ -23,4 +23,4 @@ gcc stirling-approximation.c -lm -o stirling-approximation
 git clone "https://github.com/GibranMaulana/stirling-approximation-calculator.git"
 ```
 3. add your changes
-4. request pull to your repository
+4. create a pull request to merge your contributions back into the main repository.
