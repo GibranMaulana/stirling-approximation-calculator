@@ -4,7 +4,9 @@ A Stirling Approximation calculator write using c, this program run on terminal.
 
 ## installation 
 
-1. install c compiler. windows: https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/
+1. install c compiler. 
+  - **windows**: https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/
+  - **linux/MacOS**: use your default compiler("gcc");
 2. clone the repository to your local machine
 3. navigate to the cloned directory
 ```bash
