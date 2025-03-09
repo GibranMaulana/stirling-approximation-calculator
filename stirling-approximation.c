@@ -12,11 +12,24 @@ int inputValidasi(int* var);
 int main() {;
 
   int jumlahNumber;
+
+  #ifdef _WIN32
+    system("cls");
+  #else
+    system("clear");
+  #endif
+
   do{
+
     printf("masukkan jumlah test case: ");
     
   } while(inputValidasi(&jumlahNumber) != 1);
   
+  #ifdef _WIN32
+    system("cls");
+  #else
+    system("clear");
+  #endif
   
   int arr[jumlahNumber];
 
@@ -41,7 +54,7 @@ int main() {;
         printf("number %d: %d\n", j+1 ,arr[j]);
       }
 
-      printf("\n");
+      printf("===============================\n\n");
     }
 
     #ifdef _WIN32
